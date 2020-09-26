@@ -1,0 +1,163 @@
+/*hamburg menu css scripts*/
+a.menu{
+	font-size: 30px;
+	margin-left: 100px;
+	cursor: pointer;
+}
+.nav-menu{
+	width: 400px;
+	height: 100vh;
+	overflow-y: scroll;
+	padding: 10% 30px;
+	background-image: url(../img/sidebar.jpg);
+	background-size: cover;
+	position: absolute;
+	z-index: 999;
+	top: 0;
+	right: 0;
+	transform: translateX(100%);
+	transition: all .8s
+}
+.upsec{
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(25%, 120%);
+}
+.upsec i{
+	font-size: 20px
+}
+ul.lang{
+	display: flex;
+	align-items: center;
+	margin-bottom: 0;
+}
+ul.lang li{
+	margin-left: 10px;
+}
+ul.lang li a{
+	font:nomral 18px "Arial";
+	color: #fff;
+}
+ul.lang li a:hover{
+	text-decoration: none;
+}
+.opn-menu_headText{
+	color: #fff;
+	font: bold 22px "Dosis";
+	letter-spacing: 1.3px
+}
+.opn-menu_pic{
+	width: 100%;
+	height: 30vh;
+	margin-bottom: 25px
+}
+.opn-menu_pic img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.opn-menu_mainText{
+	color: #fff;
+	font: normal 16px "Dosis";
+	letter-spacing: 1px;
+	line-height: 1.5;
+	padding-bottom: 25px; 
+	border-bottom: 1px solid gray
+}
+.nav-item{
+	padding-top: 50px; 
+}
+.nav-item .nav-list{
+	margin-bottom: 20px;
+}
+.nav-item .nav-list .nav-link, .nav-link-psv{
+	font: bold 18px "Dosis";
+	letter-spacing: 2.5px;
+	padding: .5rem 1rem;
+	color: #fff;
+	position: relative;
+}
+a:not([href]):not([tabindex]) {
+	color: #fff;
+}
+.nav-item .nav-list .nav-link:hover{
+	transition: 0.3s;
+	text-decoration: none;
+	color: #579BB2;
+}
+.nav-item .nav-list i{
+	transition: 0.3s;
+	color: #fff;
+	font-size: 20px;
+}
+.nav-item .nav-list .nav-link:hover i{
+	color: #fff;
+}
+.copywrt{
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.hamburger-menu{
+	width: 35px;
+	height: 30px;
+	position: fixed;
+	top: 30px;
+	right: 50px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.line{
+	width: 100%;
+	height: 3px;
+	background-color: #fff;
+	transition: all .8s;
+}
+.change{
+	transform: translateX(0);
+}
+.change .line-1{
+	transform: rotateZ(-405deg) translate(-8px, 6px);
+}
+.change .line-2{
+	opacity: 0;
+}
+.change .line-3{
+	transform: rotateZ(405deg) translate(-8px, -6px);
+}
+.nav-menu .nav-link::before,
+.nav-menu .nav-link::after{
+	content: "";
+	width: 100%;
+	height: 2px;
+	background-color: #579BB2;
+	position: absolute;
+	left: 0;
+	transform: scaleX(0);
+	transition: all .5s;
+}
+.nav-menu .nav-link::after{
+	bottom: 0;
+	transform-origin: right;
+}
+.nav-menu .nav-link::before{
+	top: 0;
+	transform-origin: left;
+
+}
+.nav-menu .nav-link:hover::after,
+.nav-menu .nav-link:hover::before{
+	transform: scaleX(1);
+}
+
+
+
+
+
+

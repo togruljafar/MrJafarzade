@@ -1,0 +1,117 @@
+/*animatin icon*/
+
+@keyframes shake-crc {
+			0% { transform: rotate(0deg); }
+			2.5% { transform: rotate(9deg); }
+			5% { transform: rotate(18deg); }
+			7.5% { transform: rotate(27deg); }
+			10% {transform: rotate(36deg);}
+			12.5% { transform: rotate(45deg); }
+			15% { transform: rotate(54deg); }
+			17.5% { transform: rotate(63deg); }
+			20% { transform: rotate(72deg); }
+			22.5% { transform: rotate(81deg); }
+			25% { transform: rotate(90deg); }
+			27.5% { transform: rotate(99deg); }
+			30% { transform: rotate(108deg); }
+			32.5% { transform: rotate(117deg); }
+			35% {transform: rotate(126deg);}
+			37.5% { transform: rotate(135deg); }
+			40% { transform: rotate(144deg); }
+			42.5% { transform: rotate(153deg); }
+			45% { transform: rotate(162deg); }
+			47.5% { transform: rotate(171deg); }
+			50% { transform: rotate(180deg); }
+			52.5% { transform: rotate(171deg); }
+			55% { transform: rotate(162deg); }
+			57.5% { transform: rotate(153deg); }
+			60% { transform: rotate(144deg); }
+			62.5% { transform: rotate(135deg); }
+			65% {transform: rotate(126deg);}
+			67.5% { transform: rotate(117deg); }
+			70% { transform: rotate(108deg); }
+			72.5% { transform: rotate(99deg); }
+			75% { transform: rotate(90deg); }
+			77.5% { transform: rotate(81deg); }
+			80% { transform: rotate(72deg); }
+			82.5% { transform: rotate(63deg); }
+			85% { transform: rotate(54deg); }
+			87.5% { transform: rotate(45deg); }
+			90% {transform: rotate(36deg);}
+			92.5% { transform: rotate(27deg); }
+			95% { transform: rotate(18deg); }
+			97.5% { transform: rotate(9deg); }
+			100% { transform: rotate(0deg); }
+}
+
+/*animation icon circle with action*/
+.icon{
+	width: 75%;
+	height: 75%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+	color: #579BB2;
+	border-radius: 50%;
+	font-size: 16px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.crc{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background: #aaa;
+	display: flex;
+	align-items: center;
+	position: relative;
+	cursor: pointer;
+}
+.line{
+	width: 100%;
+	height: 4%;
+	background: #579BB2
+}
+.layout-nm .crc{
+	opacity: .4;
+}
+.testimonials .crc{
+	opacity: .4;
+}
+.crc:hover .line{
+  animation: shake-crc 4s infinite alternate;
+}
+.crc:hover {
+	opacity: 1;
+}
+.preloader {
+	position: fixed;
+	z-index: 999999;
+	background-color: #cdcdcd;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.prelaoder-inner {
+	text-align: center;
+}
+.loader {
+	width: 200px;
+	height: 20px;
+	margin-top: 10px;
+	border-radius: 10px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.load {
+	width: 0;
+	height: 100%;
+	background: #579BB2;
+}

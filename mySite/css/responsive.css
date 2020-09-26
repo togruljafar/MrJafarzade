@@ -1,0 +1,500 @@
+
+@media (min-width: 768px) and (max-width: 1152px) {
+	.contact .crc-pd {
+		margin-right: 10px;
+	}
+	.contact .crc {
+		width: 50px;
+		height: 50px;
+	}
+	.contact .connect-info-box {
+		margin-bottom: 15px
+	}
+	.contact .info-text {
+		margin-bottom: 0;
+	}
+	.contact .info-text .head-sm-title {
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 992px) {
+	section {
+		overflow-y: scroll;
+	}
+	.vertical-sm-title {
+		font-size: 18px;
+		margin-bottom: 15px;
+		display: flex;
+		align-items: center;
+		position: static;
+		top: 0;
+		left: 0;
+		transform: translate(0) rotate(0deg);
+	}
+	.section-wrap {
+		padding-bottom: 50px;
+		margin-top: 200px;
+	}
+	.right-sec .img-wrapper img.person {
+		height: 370px
+	}
+	.slide-block, .right-sec {
+		margin-top: 100px;
+		padding: 0 80px;
+	}
+	.skill-status {
+		margin-top: 100px;
+	}
+	.portfolio .vertical-sm-title {
+		margin-bottom: 40px;
+		font:bold 20px "Dosis", sans-serif;
+	}
+	.portfolio .boxes {
+		height: 200px;
+	}
+	.testimonials .section-wrap {
+		padding-top: 0;
+		padding-right: 0;
+		margin-top: 50px;
+	}
+	.testimonials .row {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.testimonials .vertical-sm-title {
+		padding-left: 15px;
+	}
+	.testimonials .testimonials-wrap {
+		padding: 0;
+	}
+	.testimonials .testimonials-item {
+		padding-top: 60px;
+	}
+	.client .section-wrap {
+		margin-top: 0;
+	}
+	.responsive-margin {
+		margin-top: 60px;
+	}
+	.contact .vertical-sm-title {
+		transform: translate(0) rotate(0deg);
+		padding-left: 15px;
+	}
+	.contact form {
+		margin-top: 30px;
+	}
+	.head-lg-title {
+		font-size: 50px;
+	}
+	.head-sm-title, .vertical-sm-title {
+		font-size: 16px;
+	}
+}
+@media (min-width: 375px) and (max-width: 534px) {
+	.section-wrap {
+		padding-right: 30px; 
+		padding-left: 30px;
+	}
+}
+@media (min-width: 375px) and (max-width: 650px) {
+	.client .right-sec {
+		padding: 0 30px;
+	}
+	.client .right-sec .dots img {
+		width: 120px;
+		height: 77px;
+	}
+}
+@media (min-width: 573px) and (max-width: 724px) {
+	.contact .info-text .head-sm-title {
+		font-size: 16px;
+	}
+	.contact .crc-pd {
+		margin-right: 7px;
+	}
+	.contact .crc {
+		width: 45px;
+		height: 45px;
+	}
+}
+@media (min-width: 650px) and (max-width: 724px) {
+	.contact .info-text .head-sm-title {
+		font-size: 19px;
+	}
+	.client .right-sec {
+		padding: 0 50px;
+	}
+}
+@media screen and (max-width: 1115px) {
+	header .head-block {
+		margin: 0 3%; 
+	}
+	p.main-txt {
+		font-size: 45px;
+		letter-spacing: 3px;
+	}
+	.top-page-wrap svg.svg-line {
+		width: 65px;
+	}
+	.card {
+		width: 47%;
+		height: 155px;
+	}
+	.section-wrap {
+		padding-left: 80px;
+		padding-right: 80px; 
+	}
+	.head-lg-title {
+		font-size: 50px
+	}
+	
+	
+}
+@media (min-width: 451px) and (max-width: 1115) {
+	.right-sec .img-wrapper img.person {
+		height: 320px
+	}
+	.service .section-wrap {
+		padding-left: 75px;
+		padding-right: 70px; 
+	}
+	.right-sec .head-lg-title {
+		font-size: 35px
+	}
+	.boxes {
+		height: 200px
+	}
+}
+@media screen and (max-width: 875px) {
+	p.main-txt {
+		font-size: 35px;
+	}
+}
+@media screen and (max-width: 703px) {
+	p.main-txt {
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 619px) {
+	p.main-txt {
+		font-size: 25px;
+	}
+	.right-sec {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.dots img {
+   		width: 140px;
+   		height: 95px;
+	}
+	.right-sec .img-wrapper img.person {
+		height: 270px;
+	}
+}
+@media screen and (max-width: 533px) {
+	p.main-txt {
+		font-size: 23px;
+
+	}
+	.btn-filling, .btn-empty {
+		padding: 8px 15px;
+		font-size: 13px;
+	}
+}
+/*contact form input*/
+@media screen and (max-width: 992px) {
+	.nameBlock, .mailBlock {
+		min-width: 100%;
+		margin-bottom: 20px;
+	}
+}
+@media (min-width: 992px) {
+	.mailBlock, .nameBlock {
+		max-width: 48.7%;
+		flex: 0 0 48.7%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.layout-nm {
+		display: none;
+	}
+}
+@media (min-width: 450px) and (max-width: 768px) {
+	.top-page-wrap {
+		min-width: 75%;
+	}
+	.main-txt {
+		font-size: 45px;
+	}
+	.btn-filling, .btn-empty {
+		padding: 10px 20px;
+		letter-spacing: 1px;
+	}
+	.section-wrap {
+		padding: 0 50px;
+		margin-top: 0;
+	}
+	.about-sec .section-wrap {
+		margin-top: 100px;
+		padding-bottom: 50px;
+		top: 0;
+		transform: translate(0);
+	}
+	.slide-block {
+		padding-left: 30px;
+		padding-right: 30px
+	}
+	.portfolio .section-wrap {
+		margin-top: 100px;
+		padding-bottom: 50px;
+		top: 0;
+		transform: translate(0);
+	}
+	.portfolio .nav {
+		background-color: rgba(67,68,65, .7);
+		border-bottom: 1px solid #dee2e6;	
+	}
+	.portfolio .nav-item {
+		background: none;
+		border: none;
+	}
+	.portfolio .boxes {
+		height: 200px
+	}
+	.head-lg-title {
+		font-size: 45px;
+	}
+	.client .info-text {
+		margin-bottom: 50px;
+	}
+}
+@media screen and (max-width: 450px) {
+	header {
+		background-color: rgba(58,58,58, .7);
+	}
+	.right-wrap {
+		display: none;
+	}
+	.hamburger-menu {
+	    width: 30px;
+	    height: 25px;
+	    top: 30px;
+	    right: 4%;
+	}
+	.hamburger-menu .line {
+		height: 2px;
+	}
+	p {
+		margin-bottom: 0.5rem;
+	}
+	p.hola-txt {
+		font-size: 12px;
+	}
+	p.main-txt {
+		font-size: 24px;
+		min-width: 300px;
+	}
+	.top-page-wrap svg.svg-line {
+		width: 80px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	svg.svg-line {
+		margin: 10px 0;
+	}
+	.btn-box {
+		margin-top: 20px;
+	}
+	.btn-filling, .btn-empty {
+		font-size: 14px;
+		padding: 10px 12px;
+		border-radius: 12px;
+	}
+	/*nav menu responsive*/
+	.nav-menu {
+		max-width: 100%;
+		padding: 80px 30px;
+	}
+	.up-sec {
+		height: 25px;
+		top: 30px;
+    	left: 0;
+    	transform: translate(0);
+	}
+	.section-wrap {
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 50px;
+		margin-top: 150px;
+		top: 0;
+		transform: translate(0);
+	}
+	.head-lg-title {
+		font-size: 24px;
+		letter-spacing: 3px;
+	}
+	.head-sm-title {
+		font-size: 15px;
+	}
+	.vertical-sm-title {
+		font-size: 14px;
+	}
+	.info-text {
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+	.under-txt {
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+	.right-sec {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.dots img {
+   		width: 100px;
+   		height: 74px;
+	}
+	.right-sec .img-wrapper img.person {
+		height: 230px;
+	}
+	.right-sec .head-lg-title {
+		font-size: 24px;
+	}
+	.slide-block{
+		margin-top: 70px;
+		padding: 0;
+	}
+	.service .info-text {
+		margin-bottom: 20px;
+	}
+	.card {
+		max-width: 47%;
+		height: 139px;
+	}
+	.card-back {
+		font-size: 10rem;
+	}
+	.card-title {
+		font-size: 18px;
+		padding-bottom: 0;
+	}
+	.edit-icon {
+		font-size: 60px
+	}
+	.face1 p{
+		font-size: 11px;
+	}
+	.card:hover .face2 {
+		padding: 10px 3px;
+	}
+	.card:hover .face1{
+		padding-top: 35px;
+	}
+	.card:hover .edit-icon{
+		font-size: 25px;
+		padding: 0 10px;
+	}
+	.skill-status {
+		margin-top: 70px;
+	}
+	.skl-item {
+		font-size: 16px;
+	}
+	.portfolio .nav {
+    	margin-left: -15px;
+    	margin-right: -15px;
+		background-color: rgba(67,68,65, .7);
+		border-bottom: 1px solid #dee2e6;	
+	}
+	.portfolio .nav-item {
+		background: none;
+		border: none;
+	}
+	.portfolio .nav-link {
+		padding: 10px 12px;
+		font-size: 13px;
+	}
+	.portfolio .col-3 {
+		padding: 0;
+	}
+	.portfolio .boxes {
+		height: 130px;
+		margin-bottom: 20px;
+	}
+	.portfolio .item-box {
+		height: 100%
+	}
+	.tab-pane .row {
+		justify-content: space-between;
+	}
+	.testimonials .section-wrap {
+		margin-top: 200px;
+	}
+	.client .section-wrap {
+		margin-top: 200px;
+	}
+	.client .right-sec {
+		margin-top: 70px
+	}
+	.client .dots {
+		display: none;
+	}
+	.client .info-text {
+		margin-bottom: 20px;
+	}
+	.client-slide {
+		height: 230px;
+	}
+	.nameBlock {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.mailBlock {
+		width: 100%;
+	}
+	.contact .crc {
+		width: 50px;
+		height: 50px;
+	}
+	.contact .info-text .head-sm-title {
+		font-size: 22px
+	}
+	.contact .info-text .head-sm-title {
+		font-size: 14px;
+	}
+	.contact .responsive-margin{
+		margin-top: 30px;
+	}
+	.connect-info-box {
+		margin-bottom: 15px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.btn-filling, .btn-empty {
+		padding: 7px 9px;
+		font-size: 12px;
+	}
+	.btn-filling {
+		margin-right: 15px
+	}
+	.about-sec .dots {
+		display: none;	
+	}
+	.right-sec {
+		padding-left: 10px;
+    	padding-right: 10px;
+	}
+	.client-slide {
+		height: 190px
+	}
+	ul.social-media li {
+		padding: 0 10px;
+	}
+	.nav-item .nav-list .nav-link {
+		font-size: 15px;
+	}
+	.boxes {
+		height: 110px
+	}
+}
